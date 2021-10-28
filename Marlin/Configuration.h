@@ -2794,8 +2794,8 @@
 //
 // MarlinUI for Creality's DWIN display (and others)
 //
-//#define DWIN_MARLINUI_PORTRAIT
-//#define DWIN_MARLINUI_LANDSCAPE
+#define DWIN_MARLINUI_PORTRAIT
+#define DWIN_MARLINUI_LANDSCAPE
 
 //
 // Touch Screen Settings
