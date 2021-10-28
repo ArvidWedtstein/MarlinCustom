@@ -42,5 +42,5 @@ To build Marlin 2.0 you'll need [Arduino IDE 1.8.8 or newer](https://www.arduino
   [Teensy 3.6](https://www.pjrc.com/store/teensy36.html)|ARM® Cortex-M4|
   [Teensy 4.0](https://www.pjrc.com/store/teensy40.html)|ARM® Cortex-M7|
   [Teensy 4.1](https://www.pjrc.com/store/teensy41.html)|ARM® Cortex-M7|
-  Linux Native|x86/ARM/etc.|Raspberry Pi
+  Linux Native|x86/ARM/etc.|Raspberry Pib
 
