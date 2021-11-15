@@ -36,23 +36,9 @@
 //
 // Status Screen Logo bitmap
 //
-/**
- * Made with Marlin Bitmap Converter
- * https://marlinfw.org/tools/u8glib/converter.html
- *
- * This bitmap from the file 'bootimg.png'
- */
 
-
-/**
- * Made with Marlin Bitmap Converter
- * https://marlinfw.org/tools/u8glib/converter.html
- *
- * This bitmap from the file 'bootimgTiny.png'
- */
 #pragma once
 
-#define STATUS_SCREEN_X 64
 #define STATUS_LOGO_WIDTH 64
 
 const unsigned char status_logo_bmp[] PROGMEM = {
