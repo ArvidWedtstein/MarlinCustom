@@ -1207,7 +1207,7 @@
   #endif
 #endif
 
-// Change values more rapidly when the encoder is rotated faster
+// Change values more rapidly when the encoder is rotated faste
 #define ENCODER_RATE_MULTIPLIER
 #if ENABLED(ENCODER_RATE_MULTIPLIER)
   #define ENCODER_10X_STEPS_PER_SEC   30  // (steps/s) Encoder rate for 10x speed
