@@ -787,7 +787,7 @@
 //#define USE_KMIN_PLUG
 //#define USE_XMAX_PLUG
 //#define USE_YMAX_PLUG
-//#define USE_ZMAX_PLUG
+#define USE_ZMAX_PLUG
 //#define USE_IMAX_PLUG
 //#define USE_JMAX_PLUG
 //#define USE_KMAX_PLUG
@@ -1035,7 +1035,7 @@
 #define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
 
 // Force the use of the probe for Z-axis homing
-//#define USE_PROBE_FOR_Z_HOMING
+#define USE_PROBE_FOR_Z_HOMING
 
 /**
  * Z_MIN_PROBE_PIN
@@ -1297,7 +1297,7 @@
 // :{ 0:'Low', 1:'High' }
 #define X_ENABLE_ON 0
 #define Y_ENABLE_ON 0
-#define Z_ENABLE_ON 0
+#define Z_ENABLE_ON 1
 #define E_ENABLE_ON 0 // For all extruders
 //#define I_ENABLE_ON 0
 //#define J_ENABLE_ON 0
@@ -1325,7 +1325,7 @@
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
 #define INVERT_X_DIR true
 #define INVERT_Y_DIR true
-#define INVERT_Z_DIR true
+#define INVERT_Z_DIR false
 //#define INVERT_I_DIR false
 //#define INVERT_J_DIR false
 //#define INVERT_K_DIR false
@@ -1357,13 +1357,13 @@
 //#define Z_HOMING_HEIGHT  4      // (mm) Minimal Z height before homing (G28) for Z clearance above the bed, clamps, ...
                                   // Be sure to have this much clearance over your Z_MAX_POS to prevent grinding.
 
-//#define Z_AFTER_HOMING  10      // (mm) Height to move to after homing Z
+#define Z_AFTER_HOMING  10      // (mm) Height to move to after homing Z
 
 // Direction of endstops when homing; 1=MAX, -1=MIN
 // :[-1,1]
 #define X_HOME_DIR -1
 #define Y_HOME_DIR -1
-#define Z_HOME_DIR 1
+#define Z_HOME_DIR -1
 //#define I_HOME_DIR -1
 //#define J_HOME_DIR -1
 //#define K_HOME_DIR -1
@@ -1427,7 +1427,7 @@
  * Filament Runout Sensors
  * Mechanical or opto endstops are used to check for the presence of filament.
  *
- * IMPORTANT: Runout will only trigger if Marlin is aware that a print job is running.
+ * IMPORTANT: Runout will only trigger if Marlin is aware that a print job is running.t
  * Marlin knows a print job is running when:
  *  1. Running a print job from media started with M24.
  *  2. The Print Job Timer has been started with M75.
