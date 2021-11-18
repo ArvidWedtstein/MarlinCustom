@@ -145,7 +145,7 @@
 #if !HAS_FAN0 || (HOTENDS == 5 || (HOTENDS == 4 && BED_OR_CHAMBER) || BOTH(STATUS_COMBINE_HEATERS, HAS_HEATED_CHAMBER))
   #undef STATUS_FAN_FRAMES
 #elif !STATUS_FAN_FRAMES
-  #define STATUS_FAN_FRAMES 2
+  #define STATUS_FAN_FRAMES 4
 #elif STATUS_FAN_FRAMES > 4
   #error "A maximum of 4 fan animation frames is currently supported."
 #endif
